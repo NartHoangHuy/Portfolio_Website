@@ -1,35 +1,74 @@
-# Portfolio Website
+# 🚀 Portfolio Website - Professional Full Stack Project
 
-Một trang web portfolio hiện đại được xây dựng với React (Frontend) và Go/Gin (Backend).
+> Modern, feature-rich portfolio website built with **React** (Frontend) and **Go/Gin** (Backend)
 
-## Tính năng
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go)](https://go.dev/)
+[![React Version](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://reactjs.org/)
 
-✨ **Thiết kế hiện đại và responsive**
-- Giao diện đẹp mắt với gradient colors và animations
-- Hoạt động mượt mà trên mọi thiết bị
-- Dark theme professional
+---
 
-🚀 **Các trang chính**
-- **Hero Section**: Giới thiệu bản thân với animations
-- **About**: Thông tin về kỹ năng và kinh nghiệm
-- **Projects**: Showcase các dự án đã làm với filter
-- **Blog**: Viết blog cá nhân với full-text articles
-- **Contact**: Form liên hệ với validation
+## ✨ Features
 
-💻 **Stack công nghệ**
+### 🎨 **Modern UI/UX**
+- ✅ Responsive design (Mobile-first)
+- ✅ Dark theme với gradient colors
+- ✅ Smooth animations (Framer Motion)
+- ✅ Interactive components
+- ✅ SEO optimized
+
+### � **Portfolio Sections**
+- ✅ **Hero**: Eye-catching introduction
+- ✅ **About**: Skills showcase với icon grid
+- ✅ **Projects**: Filterable project gallery
+- ✅ **Blog**: Full-featured blog với detail pages
+- ✅ **Contact**: Working contact form với email notifications
+
+### 🔐 **Admin Panel**
+- ✅ Secure JWT authentication
+- ✅ Dashboard để quản lý projects
+- ✅ Blog post management
+- ✅ Contact message inbox
+- ✅ Image upload integration
+
+### 🗄️ **Database**
+- ✅ PostgreSQL với GORM ORM
+- ✅ Auto migrations
+- ✅ Relationships & constraints
+- ✅ Soft deletes
+
+### 📧 **Email Service**
+- ✅ SendGrid integration
+- ✅ Automated notifications
+- ✅ HTML email templates
+
+### 🖼️ **Image Management**
+- ✅ Cloudinary integration
+- ✅ Automatic image optimization
+- ✅ Secure upload endpoints
+
+---
+
+## �️ Tech Stack
 
 ### Frontend
-- React 18
-- React Router DOM
-- Framer Motion (animations)
-- Axios (HTTP client)
-- React Icons
-- Vite (build tool)
+- **React 18** - UI library
+- **Vite** - Build tool & dev server
+- **React Router** - Client-side routing
+- **Framer Motion** - Animations
+- **Axios** - HTTP client
+- **React Helmet** - SEO management
+- **React Icons** - Icon library
 
 ### Backend
-- Go 1.21
-- Gin Framework
-- CORS middleware
+- **Go 1.21+** - Programming language
+- **Gin** - Web framework
+- **GORM** - ORM
+- **PostgreSQL** - Database
+- **JWT** - Authentication
+- **SendGrid** - Email service
+- **Cloudinary** - Image hosting
+- **bcrypt** - Password hashing
 
 ## Cài đặt
 
