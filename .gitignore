@@ -1,0 +1,35 @@
+# Frontend
+node_modules/
+dist/
+.env
+.env.local
+.env.production
+*.log
+
+# Backend
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+vendor/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
